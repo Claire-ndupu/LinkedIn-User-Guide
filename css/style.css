@@ -1,0 +1,265 @@
+*{
+  box-sizing: border-box;
+  font-family:  'Montserrat', sans-serif;
+/*Roboto',*/
+}
+.box{
+   background-color: #F0F8FF;
+
+}
+body{
+   background-color: #F0F8FF!important;
+
+}
+#button {
+  display: inline-block;
+  background-color: #0077B5;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 50px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: black;
+  text-decoration: none;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.container  a{
+    text-decoration: underline!important;
+}
+
+
+.carousel-inner > .item > img, 
+.carousel-inner > .item > a > img{
+  width: 50vw;
+  height: 30vw !important;
+  margin: auto;
+}
+
+.numone-carousel{
+  height: 30vw!important;
+  width: 50vw!important;
+  
+}
+.numtwo-carousel{
+  height: 30vw!important;
+  width: 50vw!important;
+  
+}
+
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    width: auto;
+    height: auto !important;
+    margin: auto;
+    }
+
+.search-pic>img{
+  width: 50vw!important;
+  height: 30vw;
+  margin: auto!important;
+}
+
+.carousel-caption>h3{
+    font-size: 7em;
+    color: black;
+}
+
+h2,h3,h4,h5{
+  font-size: 1.3em;
+  line-height: 1.3em!important;
+}
+
+/* Large devices */
+@media (min-width: 1024px){
+  .navbar-inverse {
+    padding-left: 2vw!important;
+
+  }
+  .navbar-nav {
+    
+    padding-left: 10px!important;
+  }
+
+
+}
+
+
+
+/* Meduim to Large devices */
+@media (min-width: 768px){
+  .box{
+    padding-top: 50px;
+    margin: 0 10vw;
+    padding-left: 15vw!important;
+    padding-right: 15vw!important;
+  }
+  .stack-box{
+    margin: 0 10vw;
+    padding-left: 15vw!important;
+    padding-right: 15vw!important;
+  }
+
+}
+    
+/* Extra-Small to Small devices */
+@media (min-width: 768px) and (max-width: 969px){
+  .stack-container{
+  
+  margin-top: 5vw!important;
+  }
+}
+
+
+
+/* Small devices */
+@media (max-width: 991px) {
+
+  .carousel-inner > .item > img, 
+  .carousel-inner > .item > a > img{
+   width: auto;
+   height: 345px !important;
+  }
+  .carousel-caption>h3 {
+    font-size: 6em;
+  }
+
+}
+
+.linkedIn{
+  color: #0077B5;
+  font-weight: bold;
+}
+
+/* Extra Small devices */
+@media (max-width: 767px){
+
+  .carousel-inner > .item > img, 
+  .carousel-inner > .item > a > img{
+   width: 50vw;
+   height: 30vw !important;
+  }
+  .carousel-caption>h3 {
+    font-size: 4em;
+  }
+  .footer-text{
+    padding-right: 0px!important;
+    padding-left: 0px!important;
+  }
+  .numone {
+    height: auto!important;
+  }
+  .business-row{
+  padding: 0px 10px!important;
+  }
+  img:hover {
+  transform: scale(2)!important;
+  }
+
+} /*extra small devices end*/
+.navbar-brand{
+  padding-right: 30px!important;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+.footer-container{
+  margin: auto;
+}
+
+.footer-text{
+  text-align: center;
+}
+
+.learning-box{
+  text-align: center;
+}
+.talent-box{
+   padding: 0px 50px;
+   width: 80%;
+}
+.dropdown-menu>hr{
+  margin: 10px;
+}
+
+.easyapply{
+  width: 50vw;
+  height: 30vw;
+}
+
+.path{
+  width: 40vw;
+  height: auto;
+}
+
+.stack{
+  width: 80vw;
+  height: auto;
+}
+.business-row{
+  padding: 0px 50px;
+}
+iframe{
+  width: 50vw;
+  height: 30vw;
+}
+
+.text-box{
+  margin: auto!important;
+  
+}
+
+.align-img{
+  align-content: center!important;
+  text-align: center!important;
+}
+
+.navbar-inverse {
+    
+    padding-left: 10px;
+}
+
+.footer-row{
+  margin-left: 15px!important;
+  margin-right: 15px!important;
+}
+
+.stack{
+  width: 50vw;
+  height: auto;
+}
+
+.stack-container{
+  margin-right: 10vw!important;
+  margin-left: 10vw!important;
+  position: relative;
+  
+}
